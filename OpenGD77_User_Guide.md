@@ -2190,6 +2190,8 @@ If you noticed a problem with a language translation, please post to the https:/
 
 **This screen currently only applies to the TYT MD-UV380 | Retevis RT-3S | Baofeng DM-1701 | Retevis RT-84.**
 
+In the calibration screen, press **SK2** + **Down** to go to the next page.
+
 ##### Cal Freq<!-- linebreak -->
 
 This selects the current calibration point. This is the frequency that the radio will transmit on and the Power Adjust setting will change.  There are 5 calibration points for VHF and 8 calibration points for UHF. The firmware interpolates between these points to calculate the calibration required for other frequencies.
@@ -2225,8 +2227,8 @@ After the factory calibration has been applied, this setting returns to "No"
 4. Select the desired Tx calibration point.
 5. Select the power level (e.g. 250mW)
 6. Press the PTT and adjust the Power Adjust value, until the power meter shows 250mW.
-7. Repeat steps 5 and 6 for all other power levels
-8. Repeat steps 4 to 7 for all other calibration points.
+8. Repeat steps 5 and 6 for all other power levels
+9. Repeat steps 4 to 7 for all other calibration points.
 
 When power calibration has been completed, pressing **Green** exits from the calibration screen, retaining the current settings in RAM only.
 To permanently save the settings press **SK2** + **Green** 
